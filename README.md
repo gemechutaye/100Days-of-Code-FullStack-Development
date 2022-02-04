@@ -38,7 +38,9 @@ This project was bootstrapped with Create React App and have been made using HTM
 </br>
 
 ## Problems and Solutions ⚡️
-I got hard time to maintain the icon between on cta button. The Email button and LinkedIn button looks similar but it's not. The position between icons and texts are not align. Had try solutions out there yet, none of them work. By the time, this project deploy I'm gonna find the solution dan solved immediately.
+I got hard time to maintain the icon between on cta button. The Email button and LinkedIn button looks similar but it's not. The position between icons and texts are not align. Had try solutions out there yet, none of them work. This project took 3 full day's and I've used google to find a solution and it have helped me to do a lot. 
+
+Moreover part thanks, when I first started this challenge and endeavour, I received an excellent guidance from my Jain University professor, Assistant Professor Ashwini Mathur.
 
 Another problem that I faced was icons for the footer. I used png file and it turn out it cannot changed the color. What I have was a black and white icon. When I try to change the color using color or filter in a css it didn't work.
 
@@ -61,7 +63,7 @@ I will commit every day on Github and will provide weekly coding updates on my L
 
 ## When did I start my 100-day full-stack development coding challenge? 😍
 
-Monday, February 31, 2022
+Monday, January 31, 2022
 
 </br>
 
