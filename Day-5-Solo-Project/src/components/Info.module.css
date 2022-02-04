@@ -1,0 +1,70 @@
+.container {
+  margin: 0;
+}
+
+.header {
+  height: 300px;
+}
+
+.avatar {
+  width: 300px;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+.bio {
+  background-color: #f5f5f5;
+  padding-bottom: 32px;
+  padding-top: 20px;
+}
+
+.name {
+  margin: 0;
+  font-size: 25px;
+  color: #2b283a;
+}
+
+.title {
+  margin: 0;
+  color: #f47d27;
+  padding-top: 10px;
+  font-size: 16px;
+  font: inter;
+}
+
+.small {
+  margin: 0;
+  padding-top: 10px;
+  color: #4a4e74;
+  font-size: 12px;
+}
+
+.contacts {
+  padding-top: 22px;
+}
+
+.links {
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  color: #374151;
+  padding: 10px 90px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.email:hover,
+.email:focus {
+  background-color: #949494;
+  color: #ffffff;
+}
+
+.icons {
+  width: 24px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+
