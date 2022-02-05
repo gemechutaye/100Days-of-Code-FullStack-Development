@@ -9,9 +9,13 @@ This repo contains mini project's final code for all sections and projects conta
 I'll commit on a daily basis and provide weekly updates on the code with detailed explanations.
 Please keep in mind that all sections and the final code are included in a single folder.
 
+
+![This is an image](https://raw.githubusercontent.com/AswinBarath/100-days-of-code-challenge/master/assets/%23100DaysOfCode%20-%20Dark%20design.png)
+
+
 </br>
 
-# Solo project 1 (What is the project?) 
+# Solo project using reactjs (week - 1) (What is the project?) 
 
 
 It's a bussiness digital card based on Scrimba React course. This is a first solo React project. I built the project based on their Figma file.
