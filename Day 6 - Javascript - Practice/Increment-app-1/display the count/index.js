@@ -98,3 +98,5 @@ console.log(myGreetings);
 
 */
 
+let myNameIs = "Gemechu"
+console.log(myNameIs);
