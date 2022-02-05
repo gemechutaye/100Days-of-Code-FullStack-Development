@@ -137,6 +137,8 @@ welcomeEl.innerText += "👋"
 
 */
 
+/*
+
 // create a save feature
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
@@ -154,12 +156,62 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
-
+*/
 
 /* Debuging online for sfixing spacing
 
 // Google:
 // innerText alternative mdn
 // use textContent instead of innerText for fixing the spacing issue in alternative way.
+*/
 
+/* variable practice
+
+// Create two variables, firstName and lastName
+
+// Concatenate the two variables into a third variable called fullName
+
+// Log fullName to the console
+
+let firstName = "Gemechu "
+let lastName = "Taye"
+let fullName = firstName + lastName
+console.log(fullName);
+
+*/
+
+/* incrementing and decrementing
+
+let myPoints = 3
+
+// Create two functions, add3Points() and remove1Point(), and have them
+// add/remove points to/from the myPoints variable
+
+function add3Points() {
+    myPoints += 3
+}
+
+function remove1Points() {
+    myPoints -= 1
+}
+
+add3Points()
+add3Points()
+add3Points()
+remove1Points()
+remove1Points()
+
+// Call the functions to that the line below logs out 10
+console.log(myPoints)
+
+*/
+
+/* String and Numbers
+// Try to predict what each of the lines will log out
+console.log("2" + 2) // "22" 
+console.log(11 + 7) //  18
+console.log(6 + "5") // "65"
+console.log("My points: " + 5 + 9) // "My points: 59"
+console.log(2 + 2) // 4
+console.log("11" + "14") //  "1114"
 */
