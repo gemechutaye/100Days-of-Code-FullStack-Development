@@ -37,7 +37,7 @@ This project was bootstrapped with Create React App and have been made using HTM
 
 ## Screenshoot of the project 
 
-![This is an image](https://github.com/Gemechu-Taye/100Days-of-Code-FullStack-Development/blob/main/Day-5-Solo-Project/solo-project-screenshoot.png)
+![This is an image](https://raw.githubusercontent.com/Gemechu-Taye/100Days-of-Code-FullStack-Development/main/Day%205%20-%20ReactJs%20Solo%20Project%20Complete/solo-project-screenshoot.png)
 
 </br>
 
