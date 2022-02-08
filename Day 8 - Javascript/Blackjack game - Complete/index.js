@@ -629,7 +629,7 @@ function newCard() {
 }
 */
 
-/* Complete getRandomNumber function
+/* Assign values in the startGame function
 let cards = []
 let sum = 0
 let hasBlackJack = false
