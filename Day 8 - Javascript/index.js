@@ -124,3 +124,16 @@ console.log(flooredNumber)
 
 Your answer: it removes the decimals
 */
+
+
+/* Using Math.random() and Math.floor() to create a dice
+
+let randomNumber = Math.floor( Math.random() * 6 )
+
+console.log(randomNumber)
+
+// Write down all the possible values randomNumber can hold now!
+
+ 0,1,2,3,4,5
+
+*/
