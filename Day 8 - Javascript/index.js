@@ -126,7 +126,8 @@ Your answer: it removes the decimals
 */
 
 
-/* Using Math.random() and Math.floor() to create a dice
+/* 
+Using Math.random() and Math.floor() to create a dice
 
 let randomNumber = Math.floor( Math.random() * 6 )
 
