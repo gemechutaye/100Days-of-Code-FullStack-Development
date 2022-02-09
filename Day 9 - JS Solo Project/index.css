@@ -25,7 +25,7 @@ body > p {
     margin-top: -10px;
 }
 
-#pwchars1 {
+#genPassword1 {
     background: #273549;
     border-radius: 6px;
     height: 39px;
@@ -36,7 +36,7 @@ body > p {
     margin-right: 50px;
 }
 
-#pwchars2 {
+#genPassword2 {
     background: #273549;
     border-radius: 6px;
     height: 39px;
@@ -46,7 +46,7 @@ body > p {
     margin-left: 50px;
 }
 
-#pwchars3 {
+#genPassword3 {
     background: #273549;
     border-radius: 6px;
     border-right: 10px;
@@ -57,7 +57,7 @@ body > p {
     margin-right: 50px;
 }
     
-#pwchars4 {
+#genPassword4 {
     background: #273549;
     border-radius: 6px;
     height: 39px;
