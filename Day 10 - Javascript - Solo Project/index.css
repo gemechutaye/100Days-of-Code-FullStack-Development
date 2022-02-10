@@ -1,0 +1,93 @@
+html, body {
+    background: #ECFDF5;
+}
+/* 
+body {
+    padding: 40px;
+    background: whitesmoke;
+    text-align: center;
+} */
+.first-header {
+    color: night; 
+    border-top: 5px;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.second-header {
+    color: #10B981;
+    margin-left: 50px;
+    margin-top: -25;
+}
+
+body > p {
+    color: #6B7280;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+#genPassword1 {
+    background: #273549;
+    border-radius: 6px;
+    height: 39px;
+    width: 180px;
+    position: 15px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+}
+
+#genPassword2 {
+    background: #273549;
+    border-radius: 6px;
+    height: 39px;
+    width: 180px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+}
+
+#genPassword3 {
+    background: #273549;
+    border-radius: 6px;
+    border-right: 10px;
+    height: 39px;
+    width: 180px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+}
+    
+#genPassword4 {
+    background: #273549;
+    border-radius: 6px;
+    height: 39px;
+    width: 180px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    width: 223px;
+    height: 42px;
+    border-radius: 16px;
+    background: #10B981;
+    padding: 9px 17px 9px 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 25px;
+    margin-left: 50px;
+}

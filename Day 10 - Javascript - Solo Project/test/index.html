@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How to generate cryptography secure random number in JavaScript</title>
+        <script type="text/javascript">
+            function secureRandomNumber() {
+                var array = new Uint32Array(9);
+                window.crypto.getRandomValues(array);
+                var num5 = "";
+                console.log("Your lucky numbers:");
+                for (var i = 0; i < array.length; i++) {
+                    console.log(array[i]);
+                    num5 += "<p>" + array[i] + "</p>";
+                    document.getElementById("securerm").innerHTML = num5;
+                }
+            }
+        </script>
+    </head>
+    <body>
+
+        <h3>How to generate cryptography secure random number in JavaScript</h3>
+
+        <button onclick="secureRandomNumber();">Secure Random Number</button>
+        <div id="securerm"></div>
+
+    </body>
+</html>
