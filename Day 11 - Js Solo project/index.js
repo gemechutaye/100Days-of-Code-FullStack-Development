@@ -5,10 +5,10 @@ let num = ""
 // let thePassword = document.getElementById("password")
 // var newPassWd = [];
 // let genPassword1 = document.getElementById("genPassword1")
-// let genPassword1 = document.getElementById("genPassword1")
-// let genPassword2 = document.getElementById("genPassword2")
-// let genPassword3 = document.getElementById("genPassword3")
-// let genPassword4 = document.getElementById("genPassword1")
+let genPassword1 = document.getElementById("genPassword1")
+let genPassword2 = document.getElementById("genPassword2")
+let genPassword3 = document.getElementById("genPassword3")
+let genPassword4 = document.getElementById("genPassword1")
 
 
 function Generatepw() {
