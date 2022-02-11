@@ -1,3 +1,4 @@
+// Assigning all valuees to be printed
 let password = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let passport = "!@#$%^&*()0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 let passbook = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()";
@@ -7,6 +8,8 @@ let passall = "password" + "passport" + "passbook" + "passlook"
 let chars = 12
 let pass = []
 let num = ""
+
+// using function we will generate a random password with math.random()
 
 function Generatepw() {
     let randomNumber = password[Math.floor( Math.random() * passall.length ) ]; 
