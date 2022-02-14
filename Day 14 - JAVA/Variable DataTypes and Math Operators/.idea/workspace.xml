@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bfd7c31-592c-4ddc-9f3f-a318cfaa3c43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Conditional logic and block statements/Conditional logic and block statements.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Variable DataTypes and Math Operators.iml" afterDir="false" />
+    <list default="true" id="0bfd7c31-592c-4ddc-9f3f-a318cfaa3c43" name="Changes" comment="Conditional logic and block statements">
+      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic/out/production/Conditional logic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional logic/out/production/Conditional logic/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional logic/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional logic/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +56,34 @@
       <workItem from="1644835106597" duration="32000" />
       <workItem from="1644835442754" duration="218000" />
       <workItem from="1644835677846" duration="70000" />
-      <workItem from="1644835845813" duration="62000" />
+      <workItem from="1644835845813" duration="2247000" />
     </task>
+    <task id="LOCAL-00001" summary="Conditional logic and block statements">
+      <created>1644836238720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644836238720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Conditional logic and block statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conditional logic and block statements" />
   </component>
 </project>
