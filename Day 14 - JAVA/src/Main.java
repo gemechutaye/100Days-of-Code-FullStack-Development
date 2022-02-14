@@ -46,6 +46,28 @@ public class Main {
           otherValue = 75;
           System.out.println(otherValue);
 
+//          Arithmetic Operator
+//          Prefix and Postfix and compound Operators
+          //prefix
+          int someValue = 5;
+          System.out.println(++someValue);
+          System.out.println(someValue);
+          //postfix
+          int someOtherValue = 5;
+          System.out.println(someOtherValue++);
+          System.out.println(someOtherValue);
+
+          //Compound Assignment operators
+          int myValue = 50;
+          myValue -= 5;
+          System.out.println(myValue);
+
+          int myOtherValue = 100;
+          int val1 = 5;
+          int val2 = 10;
+          myOtherValue /= val1 * val2;
+          System.out.println(myOtherValue);
       }
+
 }
 
