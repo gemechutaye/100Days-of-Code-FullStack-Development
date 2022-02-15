@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
+
 //        While loop
     int someValue = 4;
     int factorial = 1;
@@ -9,6 +10,7 @@ public class Main {
     }
         System.out.println(factorial);
     }
+
 //    Do while loop
     int iVal = 80;
     do {
@@ -28,4 +30,15 @@ public class Main {
     for (int i = 1; i < 100; i *= 2)
         System.out.println(i);
 
+//    Array
+    float[] theVals = new float[3];
+    theVals[0] = 10.0f;
+    theVals[1] = 20.0f;
+    theVals[2] = 15.0f;
+    float sum = 0.0f;
+    for(int index = 0; index < theVals.length; index++)
+        sum += theVals[index];
+    System.out.println(sum); // displays 45
+
 }
+
