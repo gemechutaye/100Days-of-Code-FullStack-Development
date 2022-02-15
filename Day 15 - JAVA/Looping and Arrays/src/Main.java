@@ -40,5 +40,12 @@ public class Main {
         sum += theVals[index];
     System.out.println(sum); // displays 45
 
+//    Optional way
+    float[] TheVals = { 10.0F, 20.0F, 15.0F };
+    float sum = 0.0f;
+    for(int index = 0; index < theVals.length; index++)
+    sum += theVals[index];
+    System.out.println(sum); // displays 45
+
 }
 
