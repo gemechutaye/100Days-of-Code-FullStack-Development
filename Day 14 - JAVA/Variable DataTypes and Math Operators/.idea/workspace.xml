@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfd7c31-592c-4ddc-9f3f-a318cfaa3c43" name="Changes" comment="Conditional logic and block statements">
-      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic and block statements/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic/out/production/Conditional logic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional logic/out/production/Conditional logic/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional logic/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional logic/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +47,7 @@
       <workItem from="1644835106597" duration="32000" />
       <workItem from="1644835442754" duration="218000" />
       <workItem from="1644835677846" duration="70000" />
-      <workItem from="1644835845813" duration="2247000" />
+      <workItem from="1644835845813" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="Conditional logic and block statements">
       <created>1644836238720</created>
