@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d273104-2511-4b01-a369-b88305b351d8" name="Changes" comment="block statement and variable scope">
-      <change afterPath="$PROJECT_DIR$/Looping and Arrays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Looping and Arrays/Looping and Arrays.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Looping and Arrays/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Looping and Arrays/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

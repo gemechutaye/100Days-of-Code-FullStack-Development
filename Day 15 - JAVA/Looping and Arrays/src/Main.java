@@ -17,4 +17,15 @@ public class Main {
         iVal *= 2;
         System.out.println(iVal);
     } while(iVal <  25);
+
+//    While loop and for loop examples
+    int i = 1;
+    while(i<100) {
+        System.out.println(i);
+        i *= 2;
+    }
+    ////////
+    for (int i = 1; i < 100; i *= 2)
+        System.out.println(i);
+
 }
