@@ -47,5 +47,8 @@ public class Main {
     sum += theVals[index];
     System.out.println(sum); // displays 45
 
+//    CalcEngin Application for arrays
+//    in the next file
+
 }
 
