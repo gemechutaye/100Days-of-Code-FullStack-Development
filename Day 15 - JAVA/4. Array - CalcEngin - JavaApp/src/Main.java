@@ -35,5 +35,5 @@ public class Main {
     float sum = 0.0f;
     for(float currentVal : theVals)
         sum += currentVal;
-    System.out.println(sum); // dispaly 45
+    System.out.println(sum); // dispaly 45!
 }
