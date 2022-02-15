@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d273104-2511-4b01-a369-b88305b351d8" name="Changes" comment="Logical vs conditional">
+    <list default="true" id="8d273104-2511-4b01-a369-b88305b351d8" name="Changes" comment="block statement and variable scope">
+      <change afterPath="$PROJECT_DIR$/../Switch Statement/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Switch Statement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Switch Statement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Switch Statement/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Switch Statement/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +84,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -106,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644902287630</updated>
-      <workItem from="1644902289176" duration="3620000" />
+      <workItem from="1644902289176" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="Logical vs conditional">
       <created>1644902808874</created>
@@ -115,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644902808874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="block statement and variable scope">
+      <created>1644916026913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644916026913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Logical vs conditional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logical vs conditional" />
+    <MESSAGE value="block statement and variable scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="block statement and variable scope" />
   </component>
 </project>
