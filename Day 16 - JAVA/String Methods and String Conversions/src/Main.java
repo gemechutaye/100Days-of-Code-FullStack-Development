@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+
+public class Main<args> {
     /*
         public static void main(String[] args) {
     //        Converting Non-string Types to string
@@ -17,7 +18,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
         String regex;
-        String[] parts = userInput.split(regex: " ");
+        String[] parts = userInput.split(regex) + " ";
         performOperation(parts);
     }
 
@@ -30,22 +31,41 @@ public class Main {
         System.out.println(result);
     }
 
+
+
+
     public static void main(String[] args) {
-                // Array - CalcEngin - JavaApp
-                double[] leftVals = {100.0d, 25.0d, 225.0d, 11.0d};
-                double[] rightVals = {50.0d, 92.0d, 17.0d, 3.0d};
-                char[] opCodes = {'d', 'a', 's', 'm'};
-                double[] results = new double[opCodes.length];
+        // Array - CalcEngin - JavaApp
+        double[] leftVals = {100.0d, 25.0d, 225.0d, 11.0d};
+        double[] rightVals = {50.0d, 92.0d, 17.0d, 3.0d};
+        char[] opCodes = {'d', 'a', 's', 'm'};
+        double[] results = new double[opCodes.length];
 
-                for(int i = 0; i < opCodes.length; i++) {
-                    results[i] = execute(opCodes[i], leftVals[i], rightVals[i]);
-                }
-
-                for(double currentResult : results)
-                    System.out.println(currentResult);
+        if (args.length == 0) {
+            for(int i = 0; i < opCodes.length; i++) {
+                results[i] = execute(opCodes[i], leftVals[i], rightVals[i]);
             }
+            for(double currentResult : results)
+                System.out.println(currentResult);
+        } else if(args.length == 1 && args[0].equals("interactive"));
+        excuteInteractively();
+        else if(args.length == 3)
+            handleCommandLine(args);
+        else
+            System.out.println("Please provide an operation code and 2 numeric values");
+        for(double currentResult : results)
+            System.out.println(currentResult);
 
-            static double execute(char opCode, double leftVal, double rightVal) {
+    }
+
+
+    private static void handleCommandLine(String[] args) {
+    }
+
+    private static void excuteInteractively() {
+    }
+
+    static double execute(char opCode, double leftVal, double rightVal) {
                 double result;
 
                 switch (opCode) {
@@ -80,4 +100,3 @@ public class Main {
                 return value;
             }
         }
-
