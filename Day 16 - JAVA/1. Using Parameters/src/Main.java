@@ -20,6 +20,7 @@ public class Main<Static> {
         System.out.println(val2); // 20
     }
      */
+    /*
 //   Exiting a Method
     Static void showSum(float x, float y, int count) {
     showSum(7.5, 1.4, 0);
@@ -31,4 +32,19 @@ public class Main<Static> {
             System.out.println(sum);
         return;
     }
+
+     */
+//    Returning an Array
+    static double[] produceInterestHistory(double amt, double rate, int years) {
+        double[] accumulatedInterest = new double[years];
+        for (int yearIndex = 0; yearIndex < years; yearIndex++) {
+            int year = yearIndex + 1;
+            accumulatedInterest[yearIndex] = calculateInterest(amt, rate, year);
+        }
+        return accumulatedInterest;
+    }
+
+    private static double calculateInterest(double amt, double rate, int year) {
+    }
 }
+
