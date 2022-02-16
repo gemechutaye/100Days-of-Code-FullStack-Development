@@ -19,22 +19,14 @@ public class Main {
         double result;
 
         switch (opCode) {
-            case 'a':
-                result = leftVal + rightVal;
-                break;
-            case 's':
-                result = leftVal - rightVal;
-                break;
-            case 'm':
-                result = leftVal * rightVal;
-                break;
-            case 'd':
-                result = leftVal != 0 ? leftVal / rightVal : 0.0d;
-                break;
-            default:
+            case 'a' -> result = leftVal + rightVal;
+            case 's' -> result = leftVal - rightVal;
+            case 'm' -> result = leftVal * rightVal;
+            case 'd' -> result = leftVal != 0 ? leftVal / rightVal : 0.0d;
+            default -> {
                 System.out.println("Invalid opCode: " + opCode);
                 result = 0.0d;
-                break;
+            }
         }
 
         return result;
