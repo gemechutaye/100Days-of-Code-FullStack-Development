@@ -7,7 +7,7 @@
 <body>
     <script>
     var person = {
-        name: "Peter",
+        name: "Gemechu",
         age: 28,
         gender: "Male",
         displayName: function() {
@@ -15,8 +15,8 @@
         }
     };
     
-    document.write(person.name + "<br>"); // Prints: Peter
-    document.write(person.age + "<br>"); // Prints: 28
+    document.write(person.name + "<br>"); // Prints: Gemechu
+    document.write(person.age + "<br>"); // Prints: 20
     document.write(person.gender); // Prints: Male
     console.log(person); 
     </script>
