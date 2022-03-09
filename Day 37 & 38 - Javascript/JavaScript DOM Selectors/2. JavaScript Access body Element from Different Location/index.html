@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Access body Element from Different Location</title>
+    <script>
+        document.write("From HEAD: " + document.body); // Prints: null (since <body> is not parsed yet)
+    </script>
+</head>
+<body>
+    <hr>
+    <script>
+        document.write("From BODY: " + document.body); // Prints: HTMLBodyElement
+    </script>
+</body>
+</html>
