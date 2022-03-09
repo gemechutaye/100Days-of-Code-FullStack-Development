@@ -7,13 +7,13 @@
 <body>
     <script>
     var person = {
-        "first name": "Peter",
-        "current age": 28,
+        "first name": "Gemechu",
+        "current age": 22,
         gender: "Male"
     };
     
-    document.write(person["first name"] + "<br>"); // Prints: Peter
-    document.write(person["current age"] + "<br>"); // Prints: 28
+    document.write(person["first name"] + "<br>"); // Prints: Gemechu
+    document.write(person["current age"] + "<br>"); // Prints: 20
     document.write(person["gender"]); // Prints: Male
     console.log(person);
     </script>
