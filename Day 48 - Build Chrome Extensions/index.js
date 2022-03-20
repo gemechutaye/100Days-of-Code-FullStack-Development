@@ -4,8 +4,8 @@
 function saveLead() {
     console.log("Button clicked!")
 }
-
 */
+
 
 // Refactor to addEventListener
 /*
@@ -15,9 +15,10 @@ let inputBtn = document.getElementById("input-btn")
 inputBtn.addEventListener("click", function() {
     console.log("Button clicked from addEventListener")
 })
-
 */
 
+
+/*
 // I Wrote my first addEventListener() 
 
 // 1. Grab the box from the DOM and store it in a variable
@@ -29,4 +30,17 @@ let box = document.getElementById("box")
 box.addEventListener("click", function() {
     console.log("I want to open the box!")
 })
+*/
+
+
+// Refactor the code so that it uses .addEventListener()
+// when you click the SAVE INPUT button
+
+let inputBtn = document.getElementById("input-btn")
+inputBtn.addEventListener("click", function() {
+    console.log("Button clicked!")
+})
+
+
+
 
