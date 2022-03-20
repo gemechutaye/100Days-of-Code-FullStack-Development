@@ -18,7 +18,7 @@ inputBtn.addEventListener("click", function() {
 
 */
 
-// I Wrote your first addEventListener() 
+// I Wrote my first addEventListener() 
 
 // 1. Grab the box from the DOM and store it in a variable
 // 2. Add a click event listener to the box 
