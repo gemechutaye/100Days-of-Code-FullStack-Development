@@ -94,4 +94,68 @@ inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     console.log(myLeads)
 })
+<<<<<<< HEAD
 */
+=======
+*/
+
+
+// Use for loop to logout Leads
+/*
+let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com" "www.greatlead.com"]
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
+
+inputBtn.addEventListener("click", function() {
+    myLeads.push(inputEl.value)
+    console.log(myLeads)
+})
+
+
+// Log out the items in the myLeads array using a for loop
+for (let i = 0; i < myLeads.length; i++) {
+    console.log(myLeads[i])
+}
+*/
+
+// >>>>>>> 1cb3a30 (Push the value from the input fields)
+
+/*  create unordered list
+let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
+// 2. Grab the unordered list and store it in a const variable called ulEl
+const ulEl = document.getElementById("ul-el")
+
+console.log(ulEl)
+
+inputBtn.addEventListener("click", function() {
+    myLeads.push(inputEl.value)
+    console.log(myLeads)
+})
+
+
+for (let i = 0; i < myLeads.length; i++) {
+    console.log(myLeads[i])
+}
+*/
+
+
+/* Render the leads in the unordered list
+let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
+const ulEl = document.getElementById("ul-el")
+
+inputBtn.addEventListener("click", function() {
+    myLeads.push(inputEl.value)
+    console.log(myLeads)
+})
+
+// Render the leads in the unordered list using ulEl.textContent
+for (let i = 0; i < myLeads.length; i++) {
+    ulEl.textContent += myLeads[i] + " "
+}
+*/
+
+
