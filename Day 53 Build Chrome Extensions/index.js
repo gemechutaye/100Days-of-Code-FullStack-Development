@@ -1,4 +1,4 @@
-// Render the <li> elements with innerHTML
+/* Render the <li> elements with innerHTML
 let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
@@ -12,6 +12,30 @@ inputBtn.addEventListener("click", function() {
 // Replace .textContent with .innerHTML and use <li> tags
 for (let i = 0; i < myLeads.length; i++) {
     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+}
+*/
+
+
+// Use createElement() and append() instead of innerHTML
+let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
+const ulEl = document.getElementById("ul-el")
+
+inputBtn.addEventListener("click", function() {
+    myLeads.push(inputEl.value)
+    console.log(myLeads)
+})
+
+// Let's try a different method!
+for (let i = 0; i < myLeads.length; i++) {
+    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+    // create element
+    // set text content
+    // append to ul
+    const li = document.createElement("li")
+    li.textContent = myLeads[i]
+    ulEl.append(li)
 }
 
 
