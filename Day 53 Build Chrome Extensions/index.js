@@ -39,7 +39,7 @@ for (let i = 0; i < myLeads.length; i++) {
 }
 */
 
-// Improving the performance of our app
+/* Improving the performance of our app
 let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
@@ -59,6 +59,29 @@ for (let i = 0; i < myLeads.length; i++) {
 }
 // 3. Render the listItems inside the unordered list using ulEl.innerHTML
 ulEl.innerHTML = listItems
+*/
+
+
+// Create the render function
+let myLeads = []
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
+const ulEl = document.getElementById("ul-el")
+
+inputBtn.addEventListener("click", function() {
+    myLeads.push(inputEl.value)
+    // 2. Call the renderLeads() function
+    renderLeads()
+})
+
+// 1. Wrap the code below in a renderLeads() function
+function renderLeads() {
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems += "<li>" + myLeads[i] + "</li>"
+    }
+    ulEl.innerHTML = listItems  
+}
 
 
 
