@@ -23,7 +23,7 @@ function renderLeads() {
 */
 
 
-// Template Strings
+/* Template Strings
 let myLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
@@ -49,3 +49,14 @@ function renderLeads() {
     }
     ulEl.innerHTML = listItems  
 }
+*/
+
+/* Writing more template strings/literals
+
+const recipient = "James"
+
+// Refactor the email string to use template strings
+const email = `Hey ${recipient} ! How is it going? Cheers Per`
+
+console.log(email)
+*/
