@@ -83,6 +83,7 @@ function renderLeads() {
 }
 */
 
+/*
 let myLeads = []
 let oldLeads = []
 const inputEl = document.getElementById("input-el")
@@ -122,3 +123,15 @@ inputBtn.addEventListener("click", function() {
     localStorage.setItem("myLeads", JSON.stringify(myLeads) )
     render(myLeads)
 })
+*/
+
+// Functions with multiple parameteres
+const welcomeEl = document.getElementById("welcome-el")
+
+// Add the ability to choose the emoji as well!
+
+function greetUser(greeting, name, emoji) {
+    welcomeEl.textContent = `${greeting}, ${name} ${emoji}`
+}
+
+greetUser("Howdy", "James", "🔥")
