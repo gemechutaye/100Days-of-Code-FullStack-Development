@@ -1,5 +1,7 @@
 # title(){return this.options.title||this.options.name}
 
+##Learning from Scrimba is part of my 100DaysofCode challange 
+
 ## Supporting Scrimba
 
 Since 2017, we have created over 20 free courses on Scrimba, and we're going to
