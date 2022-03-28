@@ -33,3 +33,4 @@ function logItems(arr) {
 }
 
 logItems(myCourses)
+*/
