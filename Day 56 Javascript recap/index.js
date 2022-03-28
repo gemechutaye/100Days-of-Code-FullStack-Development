@@ -1,4 +1,4 @@
-// SETTING THE STAGE
+/* SETTING THE STAGE
 const player = "Per"
 const opponent = "Nick"
 const game = "AmazingFighter"
@@ -18,3 +18,18 @@ if (hasWon) {
 
 // Go through all variables and decide if they should be let or const
 // Change the console logs to use template strings instead of double quotes
+
+/*  let out Items in an array
+let myCourses = ["Learn CSS Animations", "UI Design Fundamentals", "Intro to Clean Code"]
+
+// Create a function that takes a single parameter, an array,
+// and logs all the items of the array to the console.
+// Call the function while passing in myCourses as an argument
+
+function logItems(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+    }
+}
+
+logItems(myCourses)
