@@ -1,0 +1,129 @@
+body {
+  font-family: Arial;
+  margin: 5px;
+  padding: 5px;
+  border: 3px #8E24AA solid;
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+.col-third {
+  width: 30%;
+  display: inline-block;
+  border: 1px #8E24AA dashed;
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+}
+.col-half {
+  width: 50%;
+  display: inline-block;
+  flex: 1;
+  border: 1px #8E24AA dashed;
+  padding: 5px;
+}
+.bgPurple {
+  background-color: #8E24AA;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.subTitle {
+  color: #8E24AA;
+}
+.flowers {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+.kitten {
+  width: 100px;
+  height: auto;
+}
+table {
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+tr:nth-child(odd) {
+    background-color: #EA80FC;
+}
+tr:nth-child(even) {
+    background-color: #B388FF;
+}
+.bgImg {
+  height: 200px;
+  background-image: url("https://images.unsplash.com/photo-1504681869696-d977211a5f4c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5af81b11534b3e3212d479fc18c586ff");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+#anchorButton {
+  background-color: #F50057;
+  padding: 5px;
+  border-radius: 5px;
+}
+#linkTextButton {
+  color: white;
+  font-weight: bold;
+}
+.signCode {
+	text-align: center;
+  border: 1px #8E24AA dashed;
+}
+#redWord {
+  color: red;
+}
+#redHex {
+  color: #ff0000;
+}
+#redRGB {
+  color: rgb(255, 0, 0);
+}
+#paddingEx {
+  border: 5px #8E24AA dashed;
+  margin: 10px;
+  padding: 10px;
+}
+#paddingEx2 {
+  border: 1px #8E24AA solid;
+  background-color: grey;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+#paddingEx3 {
+  background: white;
+  display: inline-block;
+  height: 60px;
+  text-align: center;
+}
+.specific {
+  background-color: #76FF03;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+}
+#prettySign {
+	font-family: 'Indie Flower', cursive;
+	font-size: 32px;
+  color: #03A9F4;
+  font-weight: bold;
+}
+input {
+  text-align: center;
+}

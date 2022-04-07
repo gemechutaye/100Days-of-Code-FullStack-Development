@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>basics-of-html-css-and-javascript</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1> <span class="bgPurple"> Learning to Code </span> </h1>
+
+<h2 class="subTitle"> Front-End Web Development Basics </h2>
+<div class="bgPurple">
+  <h3> What is Front-End? </h3>
+  <p> Essentially, it's all the bits of a website that the user (you or me) can see, or interact with, when viewing a webpage. There are made up of 3 cores ingredients when building the front-end of webpages: </p>
+</div>
+
+<div class="row">
+  <div class="col-third boxLeft">
+    <h3> HTML </h3>
+    <p> Hyper Text Markup Language </p>
+    <p> This is the <strong>content</strong> of the webpage. This includes text, images, videos, and so on. </p>
+    <p> HTML is written as a series of <strong>tags</strong>. </p>
+    <p> <code> < h1 class="class-name" > Hello, world! < /h1> </code> </p>
+  </div>
+  <div class="col-third boxCenter">
+    <h3> CSS </h3>
+    <p> Cascanding Style Sheets </p>
+    <p> As the name suggests, this is the <strong>style</strong> of the webpage. Think prettification - colours, borders, backgrounds, layout, spacing, the list is endless. </p>
+    <p> Usually CSS goes in another file, but CodePen has nicely set this file up for you (in the middle box). </p>
+    <p> CSS is written as properties and values:</p>
+    <p> <code> tag/.className/#idName { property: value; } </code> </p>
+    <p> Example: <code> h1 { color: red; } </code> </p>
+  </div>
+  <div class="col-third boxRight">
+    <h3> JavaScript </h3>
+    <p> For interactivity - the magic ingredient for exciting websites. </p>
+    <p> A bit more complicated than HTML and CSS. Requires variables, functions, logic and an understanding of how webpages work (sometimes referred to as the Document Object Model or DOM). </p>
+    <p> Like CSS, Javascript usually goes in another file, but CodePen has nicely set this file up for you (in the right box). </p>
+    <p> Luckily for us, some wonderful people have already built a lot of libraries using JavaScript. This means we can use JavaScript with less effort and less lines of code. Popular ones are jQuery, Angular and React. </p>
+  </div>
+</div>
+
+<div>
+  <h2> <span class="bgPurple">HTML Basics </span></h2>
+  <div class=row>
+    <div class="col-half">
+      <p> <strong> Headings: </strong> there are 6 sizes of headings. Using the h1 to h6 tags </p>
+      
+      <h1> Heading </h1>
+      <h2> Heading </h2>
+      <h3> Heading </h3>
+      <h4> Heading </h4>
+      <h5> Heading </h5>
+      <h6> Heading </h6>
+    </div>
+    <div class="col-half">
+      <p> <strong> Paragraphs: </strong> these are used to define chunks of text (they add a line break before and after the text). This is a paragraph! </p>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel massa auctor, congue mi et, faucibus arcu. Nullam condimentum sapien at ligula bibendum pellentesque nec eu quam. Sed ex turpis, iaculis ac euismod vitae, scelerisque non orci. Nulla rhoncus vitae diam vitae eleifend. Aliquam odio nisi, malesuada vitae ante et, iaculis posuere est. Vestibulum gravida, sem lacinia egestas tristique, quam velit bibendum leo, eu porta elit libero a erat. Nam at fermentum eros. Etiam ex neque, tempor ut lectus nec, imperdiet porttitor mi. </p>
+
+      <p>Donec in nisi elementum, porta lectus sit amet, auctor augue. Etiam consequat sem sed mi interdum, eget mollis sapien rutrum. Nulla tincidunt consectetur sapien, venenatis ullamcorper nisi venenatis id. Integer lacinia velit ut erat posuere luctus. Integer rhoncus porta ligula eu interdum. Nullam ornare erat et ante sagittis, ac ornare augue finibus. Fusce in euismod nunc. Sed pellentesque, mauris eu vehicula laoreet, nulla ligula gravida turpis, vel dictum lorem nisl ac urna. Nunc condimentum blandit urna, eget semper risus. Nulla facilisi. Vestibulum ac ligula id nulla porttitor consequat ut sed eros. Aliquam scelerisque tempor erat, quis interdum justo pretium in. Ut fermentum molestie ligula, at blandit nulla scelerisque quis. In vitae augue dolor. In scelerisque lacus pulvinar velit interdum ornare.</p>
+      
+    </div>
+  </div>
+  
+  <div class=row>
+    <div class="col-half">
+      <p> <strong> Images: </strong> can be added to websites in multiple ways. The easiest way on CodePen is to click on "Assets" at the button and use their images. Or find an image you link on the internet and copy the link. This is then added to the "src" attribute of the HTML tag. It's important to include something descriptive in the "alt" attribute as this is what will be displayed/read aloud for those unable to view the image (slow connections, unable to find image or using a screen reader). Image tags are <strong>self-closing</strong>, meaning they don't need a closing tag. For example: </p> 
+      
+      <img class="flowers" src="https://images.unsplash.com/photo-1513682420723-665a60941a37?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=28fd33f4db75ca326b9cbdcb115bda17" alt="picture of wild flowers" />
+    </div>
+    <div class="col-half"> 
+      <p><strong>Anchors: </strong> these can be thought of like hyperlinks - they "anchor" to another website, another page of your website or to another part of the same page.</p>
+      <p>This one links to <a href="http://www.google.com" target="_blank">Google</a>. </p>
+      <p> They can also be added to images: <a href="https://www.google.com/search?q=kittens&source=lnms&tbm=isch&sa=X&ved=0ahUKEwijuKGWl5fbAhXJYlAKHe8wDX0Q_AUICigB&biw=1440&bih=731" target="_blank"><img class="kitten" src="https://images.unsplash.com/photo-1522659436280-ecdbfbb27976?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=dba1dcdb156615e6f05f19c060e21fbb" alt="very cute kitten being held"/></a></p>
+      <p> Another HTML tag which can be useful for anchors is <strong>buttons</strong>: <button id="anchorButton"> <a id="linkTextButton" href="https://www.google.com/search?biw=1440&bih=731&tbm=isch&sa=1&ei=qO4CW9bYNYSiwAK1qI_4AQ&q=daschund+puppies&oq=das+puppies&gs_l=img.1.0.0i7i30k1l5j0i7i10i30k1j0i7i30k1l2j0i7i10i30k1j0i7i30k1.2280.10729.0.11850.9.7.2.0.0.0.415.1324.0j4j1j0j1.6.0....0...1c.1.64.img..1.8.1337...0j0i7i5i30k1j0i8i30k1.0.8109OLHI33E" target="_blank">Click me!</a> </button> </p>
+      <p> <code> target="_blank" </code> must be used in CodePen. It means the link is opened in a new tab. </p>
+      <p> Modern browsers (like Google Chrome) automatically format anchors as blue and underlined. This can be overwritten in the CSS. </p>
+    </div>
+  </div>
+
+<div class=row>
+    <div class="col-half">
+      <p> <strong> Bullet points: </strong> </p>
+      <div class="row">
+        <div class="col-half">
+          <p> <em>Unordered List </em></p>
+          <p> Laura's Favourite Cheeses: </p>
+          <ul>
+            <li> Halloumi</li>
+            <li> Brie </li>
+            <li> Blue Stilton </li>
+            <li> Smoked Cheddar </li>
+          </ul>  
+        </div>
+        <div class="col-half">
+          <p><em> Ordered List </em> </p>
+          <p> Laura's Top Board Games: </p>
+          <ol>
+            <li> Chess</li>
+            <li> Scrabble</li>
+            <li> Articulate </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-half">
+      
+      <p> <strong> Tables: </strong> </p>
+      <table>
+        <tr>
+          <th>Position</th>
+          <th>Artist</th>
+          <th>Song</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Calvin Harris & Dua Lipa</td>
+          <td>One Kiss</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Drake</td>
+          <td>Nice For What</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ariana Grande</td>
+          <td>No Tears Left To Cry</td>
+        </tr> 
+         <tr>
+          <td>4</td>
+          <td>Lil Dicky</td>
+          <td>Freaky Friday (feat. Chris Brown)</td>
+        </tr>       
+           <tr>
+          <td>5</td>
+          <td>Anne-Marie</td>
+          <td>2002</td>
+        </tr>     
+        
+      </table>
+     </div>
+  </div>
+</div>
+
+<div>
+  <h2> <span class="bgPurple">CSS Basics </span></h2>
+  <p> Examples of all of these (and some others) can be found in the middle CSS box. There are a lot more CSS commands which can be used. I suggest looking on W3C Schools to find different ones and the different properties they can take. </p>
+  <div class="row">
+    <div class="col-third">
+      <p> <strong>Colours </strong> - (always spelt color) can be described as <span id="redWord"> words </span> (red), <span id="redHex"> hex </span> (#ff0000), <span id="redRGB">rgb </span> (rgb(255, 0, 0))</p>
+
+      <p> <strong>Font</strong> - colour, family, size, weight</p> 
+
+      <p> <strong>Background</strong> - colour, images </p>
+      
+      <div class="row">
+        <div class="col-third bgImg">
+        </div>
+      </div>
+    </div>
+    <div class="col-third">
+      <p><strong> Width and height </strong> - these can be used to set the size of divs and images. For images, one can be set to auto so that the image scales correctly. Usually described using pixels (px), but can also be percent (%).</p>
+      
+      <p><strong> Align</strong> - text-align used for text. center, right, left. Images require a bit more work (see the example of the image in the HTML section - the size is described as a percent, display is set to block and the left and right margins are set to auto).</p>
+
+      <p><strong> Display</strong> - used to specifiy where the content will be displayed. Example, inline-block means the content will be displayed side by side.</p>
+    </div>
+    <div class="col-third">
+      <p> <strong>Border</strong> - can be described using color, size (in pixels), type (solid, dashed).</p>
+      <p><strong>Margin</strong> - the space around the edge of the content and other content. This is the area outside the border. Can be specified for top, bottom, left and right.</p>
+      
+      <p><strong> Padding</strong> - the space around the edge of the content and other content. This is inside the border of the HTML element. Can be specified for top, bottom, left and right.</p>
+     <div class="row">
+       <p> Example to the right has a margin of 10px (shown by the big dashed line) and a padding of 10px (shown by the solid line):
+        <div id="paddingEx">
+          margin
+          <div id="paddingEx2">
+            padding
+            <div id="paddingEx3">
+              element
+            </div>
+          </div>
+        </div>
+       </p>
+      </div>
+    </div>
+  </div>
+<div>
+  <h2><span class="bgPurple"> Advanced HTML </span></h2>
+   <p> Often, we need to use a few extra HTML tags to help break up or identify our content. </p>
+   <div class="row">
+    <div class="col-half">
+      <h3> Divs and Spans </h3>
+      <ul>
+        <li> <strong>Divs </strong>- stands for division. This is used to split your content into sections, and are very useful for apply CSS and JavaScript.</li>
+        <li> <strong>Spans </strong>- used to apply CSS and JavaScript to <span class="specific"> specific</span> content, for example one word in the middle of a sentence.</li>
+       </ul>
+      <p> Divs, paragraphs and headings are example of <strong>block-level</strong> HTML tags. However, spans are <strong> inline </strong> - meaning a blank line is not taken before and after. </p>
+      <p> Note: CSS can be added to divs to ensure they don't take new lines (see the example of the HTML, CSS and JavaScript boxes in a row). </p>
+    </div>
+    <div class="col-half">
+      <h3> Classes and IDs </h3>
+      <p> What happens if we want to apply CSS to just one h3 tags? We can use special tags called classes and IDs to identify which tag (or group of tags) you are specifically talking about.</p>
+     <ul>
+          <li> <strong>Classes </strong>- used to describe a group of HTML tags you wish to apply the same CSS or JavaScript to. Applied by adding "class=className" inside the opening HTML tag. Referred to in the CSS by using ".className" rather than the HTML tag.</li>
+        <li> <strong>IDs </strong>- used to describe ONE HTML tag - only one with each ID name. Applied by adding "id=idName" inside the opening HTML tag. Referred to in the CSS by using "#idName" rather than the HTML tag.</li>
+      </ul>
+      <p> HTML tags can have both IDs and classes. They can also have multiple classes. For example,
+        <code> < div class="oneClass twoClass" id="specialID"> < / div> </code> </p>
+     <p> Class and ID names cannot begin with a number, have spaces or special characters. They can include hypens. Naming conventions include camelCase and snake-case. </p>
+    </div>
+  </div>  
+</div>
+
+<div> 
+  <h2><span class="bgPurple"> JavaScript </span></h2>
+  
+  <div class="row">
+    <div class="col-half">
+      <p> Click the button on the right, for a very simple example. All the code for is is in the right box, in a function called signEstimate. This does some calculations and changes the HTML on the website (interactivity!)</p>
+      <p> A <strong>function</strong> is a bit of code that you reuse over and over again. You could build a function to multiply two numbers easily.</p>
+      <p> Sometimes you won't know which numbers you want to multiple, so we might make a function to multiple x and y. In this case, x and y are called <strong>variables</strong> (because they can vary in value)</p>
+      <p> In JavaScript, you can reference HTML elements by their ID or class name (see the example in the left box <code>document.getElementById("prettySign")</code>) This accesses the HTML element with the ID name "prettySign". </p>
+      <p> JavaScript is case-sensitive!</p>
+     </div>
+
+    <div class="signCode col-half">
+      <h2> Create your own sign! </h2>
+      <p> £5 per letter for signs less than 10 letters </p>
+      <p> £3.50 per letter for signs greater than 10 letters </p>
+      <p> Shipping is £7 </p>
+
+      <form id="signText" action="form_action.asp">
+        Enter your desired text:
+        <br>
+        <br>
+        <input type="text" name="desiredText" value="Your Sign">
+      </form>
+      <br>
+      <button onclick="signEstimate();">Estimate</button>
+      <br>
+      <p id="estimate"></p>
+      <p id="prettySign"></p>
+    </div>
+  </div>
+  
+</div>
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
