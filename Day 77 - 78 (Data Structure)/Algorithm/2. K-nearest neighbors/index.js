@@ -25,4 +25,5 @@ const kNearestNeighbors = (data, labels, point, k = 3) => {
         topClassCount: 0
       }
     ).topClass;
-  };
+};
+  
