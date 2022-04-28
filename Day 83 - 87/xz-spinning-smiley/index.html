@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spinning Smileys</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        background-color: black;
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0.25;
+        background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/potw1930a.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .smiley-container {
+        width: 440px;
+        height: 440px;
+        position: relative;
+        perspective: 100px;
+        perspective-origin: center top;
+      }
+      .king-smiley {
+        font-size: 200px;
+        position: absolute;
+        z-index: 0;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: spin;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        line-height: 1.2;
+        display: block;
+        max-width: 200px;
+        max-height: 200px;
+        filter: drop-shadow(0 0 50px #eb4a00);
+      }
+      .smiley {
+        line-height: 1.2;
+        font-size: 40px;
+        position: absolute;
+        filter: drop-shadow(0 0 2px #ead637);
+      }
+      @keyframes spin {
+        from {
+          transform: translate(-50%, -50%) rotateZ(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotateZ(360deg);
+        }
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const myTwirlyStyles = document.querySelectorAll(".smiley");
+        [...myTwirlyStyles].forEach((item, index, array) => {
+          const currentDegrees = Math.round((360 / array.length) * (index + 1));
+          item.currentDegrees = currentDegrees;
+        });
+        window.setInterval(() => {
+          [...myTwirlyStyles].forEach((item, index, array) => {
+            const rotationDegree = item.currentDegrees;
+            const x = Math.cos((rotationDegree * Math.PI) / 180);
+            const z = Math.sin((rotationDegree * Math.PI) / 180);
+            item.style.transform = `translate3d(
+              ${(x + 1) * 200}px,
+              200px,
+              ${(z + 1) * 10}px
+            )`;
+            item.style.zIndex = Math.round(z * 100);
+            item.currentDegrees += 0.5;
+            if (item.currentDegrees > 360) item.currentDegrees = 0;
+          });
+        }, 10);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="smiley-container">
+      <div class="king-smiley">😡</div>
+      <div class="smiley">😁</div>
+      <div class="smiley">😁</div>
+      <div class="smiley">😁</div>
+      <div class="smiley">😁</div>
+      <div class="smiley">😁</div>
+      <div class="smiley">😁</div>
+      <div class="smiley">😁</div>
+      <div class="smiley">😁</div>
+    </div>
+  </body>
+</html>
