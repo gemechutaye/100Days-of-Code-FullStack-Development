@@ -48,7 +48,7 @@ function App() {
           {userList.length === 0 && (
             <tr>
               <td className="text-center" colSpan="4">
-                <b>No data found to display.</b>
+                <b>No data found to display!</b>
               </td>
             </tr>
           )}
